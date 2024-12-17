@@ -1,0 +1,241 @@
+
+.top-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.navbar {
+    background-color: #f1f1f1; 
+    padding: 10px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+/* Navigation list items */
+.nav li {
+    position: relative;
+}
+
+/* Navigation links */
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+.nav a:hover {
+    color: #007BFF; /* Change link color on hover */
+}
+.clg1 img {
+    max-width: 100%;        
+    height: auto;          
+    object-fit: cover;  
+}
+.about{
+    text-align: center;
+    background-color: bisque;
+    margin-bottom: 60px;
+}
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.h2c{
+    margin-top: 60px;
+   max-width: 100%;
+   object-fit: contain;
+}
+
+/* Style for each individual program box */
+.program-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 220px; 
+    height: 300px; 
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+/* Hover effect for each box */
+.program-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(2, 2, 2, 1);
+}
+
+/* Style for the image inside the program box */
+.program-box img {
+    width: 100%; 
+    height: 120px; 
+    border-radius: 4px; 
+    object-fit: cover; 
+}
+
+/* Style for the heading inside the program box */
+.program-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style for the links inside each box */
+.program-box a {
+    text-decoration: none;
+    color: #007BFF; 
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+/* Change link color on hover */
+.program-box a:hover {
+    color: #0056b3;
+}
+.sph2 {
+    margin-top: 60px;
+    max-width: 100%;        
+    height: auto;          
+    object-fit: cover; 
+}
+
+
+.supports {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.stusup {
+    flex: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.stusup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.stusup img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.stusup-info {
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: bold;
+    flex: 2;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.stusup-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stusup-info strong {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+.stusup-info p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.stusup-info a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.stusup-info a:hover {
+    color: #0056b3;
+}
+
+
+.abouts {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+    gap: 20px; 
+    margin: 20px 0;
+}
+
+.about-box {
+    background-color: #f8f8f8; /* Light background for each box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Adds padding inside each box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    text-align: center; /* Centers text */
+}
+
+.about-box p {
+    font-size: 16px; 
+    color: #333; 
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(2, 2, 2, 1);
+
+}
+.contact-us {
+    background-color: #f9f9f9; 
+    padding: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+.contact-heading {
+    background-color: bisque;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+.contact-info a {
+    color: #007BFF; 
+    font-weight: bold;
+}
+.contact-info a:hover {
+    color: #0056b3;
+}
